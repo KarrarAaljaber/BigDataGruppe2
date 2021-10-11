@@ -28,7 +28,7 @@ object konsolApplikasjon extends App {
     val age = readInt()
 
     val app = new ConsoleApp(name, country, income, age)
-    
+
     val post = new HttpPost("http://127.0.0.1:2379/v2/keys/App/" + name.replaceAll("\\s", "-"))
     val appJson = new Gson().toJson(app)
 

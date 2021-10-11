@@ -12,7 +12,7 @@ import com.google.gson.Gson
 
 case class FrontPageData(overallRank: String, country: String, score: String, gdp: String)
 
-object HttpJsonPostTest extends App {
+object HttpJsonPost extends App {
 
     val source = io.Source.fromFile("res/2019.csv")   
     val lines = source.getLines()
@@ -32,6 +32,7 @@ object HttpJsonPostTest extends App {
 
 
         //country.replaceAll("\\s", "-")
+        //val post = new HttpPost("http://127.0.0.1:2379/v2/keys/IncomeByCountry/" + country.replaceAll("\\s", "-"))
         val post = new HttpPost("http://127.0.0.1:2379/v2/keys/IncomeByCountry/" + overallRank)
         val frontPageData = new FrontPageData(overallRank, country, score,gdp)
         val fpjson = new Gson().toJson(frontPageData)

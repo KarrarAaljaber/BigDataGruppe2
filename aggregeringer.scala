@@ -28,7 +28,7 @@ object HttpJsonPostTest extends App {
 
 case class Teacher(firstName: String, lastName: String, age: Int)
 
-object HttpGetPostTest extends App {
+object HttpGetPost extends App {
 
 
     var index =0
@@ -42,8 +42,6 @@ object HttpGetPostTest extends App {
 
         println(valueParsed)
         
-    
-
     }
   
     
