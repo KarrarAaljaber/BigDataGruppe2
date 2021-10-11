@@ -1,0 +1,56 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 15 products, 1 sources, 4 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/konsolApplikasjon.scala, ${BASE}/aggregeringer.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/konsolApplikasjon.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(${BASE}/konsolApplikasjon.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/konsolApplikasjon.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/student/gruppe2/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.5.7:compile for Scala 2.12.14[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 4e39f1d5 for Scala compiler version 2.12.14[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/student/.sbt/boot/scala-2.12.14/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/student/gruppe2/target/scala-2.12/classes:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from ConsoleApp...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: ConsoleApp[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(ConsoleApp)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(ConsoleApp,ModifiedNames(changes = UsedName(notify,[Default]), UsedName(productElement,[Default]), UsedName(curried,[Default]), UsedName(productArity,[Default]), UsedName(wait,[Default]), UsedName(name,[Default]), UsedName(ConsoleApp;init;,[Default]), UsedName(notifyAll,[Default]), UsedName(ConsoleApp,[Default]), UsedName(equals,[Default]), UsedName(age,[Default]), UsedName(tupled,[Default]), UsedName(clone,[Default]), UsedName(copy,[Default]), UsedName(copy$default$4,[Default]), UsedName(finalize,[Default]), UsedName(##,[Default]), UsedName($init$,[Default]), UsedName(canEqual,[Default]), UsedName(productPrefix,[Default]), UsedName(getClass,[Default]), UsedName(!=,[Default]), UsedName(asInstanceOf,[Default]), UsedName(hashCode,[Default]), UsedName(copy$default$3,[Default]), UsedName(apply,[Default]), UsedName(ne,[Default]), UsedName(toString,[Default]), UsedName(productIterator,[Default]), UsedName(copy$default$2,[Default]), UsedName(synchronized,[Default]), UsedName(isInstanceOf,[Default]), UsedName(country,[Default]), UsedName(unapply,[Default]), UsedName(income,[Default]), UsedName(==,[Default]), UsedName(copy$default$1,[Default]), UsedName(eq,[Default]))) invalidates 1 classes due to The ConsoleApp has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(notify,[Default]), UsedName(productElement,[Default]), UsedName(curried,[Default]), UsedName(productArity,[Default]), UsedName(wait,[Default]), UsedName(name,[Default]), UsedName(ConsoleApp;init;,[Default]), UsedName(notifyAll,[Default]), UsedName(ConsoleApp,[Default]), UsedName(equals,[Default]), UsedName(age,[Default]), UsedName(tupled,[Default]), UsedName(clone,[Default]), UsedName(copy,[Default]), UsedName(copy$default$4,[Default]), UsedName(finalize,[Default]), UsedName(##,[Default]), UsedName($init$,[Default]), UsedName(canEqual,[Default]), UsedName(productPrefix,[Default]), UsedName(getClass,[Default]), UsedName(!=,[Default]), UsedName(asInstanceOf,[Default]), UsedName(hashCode,[Default]), UsedName(copy$default$3,[Default]), UsedName(apply,[Default]), UsedName(ne,[Default]), UsedName(toString,[Default]), UsedName(productIterator,[Default]), UsedName(copy$default$2,[Default]), UsedName(synchronized,[Default]), UsedName(isInstanceOf,[Default]), UsedName(country,[Default]), UsedName(unapply,[Default]), UsedName(income,[Default]), UsedName(==,[Default]), UsedName(copy$default$1,[Default]), UsedName(eq,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(ConsoleApp)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from konsolApplikasjon...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: konsolApplikasjon[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(konsolApplikasjon)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(konsolApplikasjon,ModifiedNames(changes = UsedName(appJson,[Default]), UsedName(notify,[Default]), UsedName(client,[Default]), UsedName(main,[Default]), UsedName(wait,[Default]), UsedName(name,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName(age,[Default]), UsedName(executionStart,[Default]), UsedName(args,[Default]), UsedName(clone,[Default]), UsedName(response,[Default]), UsedName(finalize,[Default]), UsedName(app,[Default]), UsedName(##,[Default]), UsedName($init$,[Default]), UsedName(delayedInit,[Default]), UsedName(post,[Default]), UsedName(getClass,[Default]), UsedName(!=,[Default]), UsedName(asInstanceOf,[Default]), UsedName(hashCode,[Default]), UsedName(ne,[Default]), UsedName(toString,[Default]), UsedName(nameValuePairs,[Default]), UsedName(synchronized,[Default]), UsedName(isInstanceOf,[Default]), UsedName(country,[Default]), UsedName(income,[Default]), UsedName(==,[Default]), UsedName(eq,[Default]), UsedName(konsolApplikasjon,[Default]))) invalidates 1 classes due to The konsolApplikasjon has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(appJson,[Default]), UsedName(notify,[Default]), UsedName(client,[Default]), UsedName(main,[Default]), UsedName(wait,[Default]), UsedName(name,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName(age,[Default]), UsedName(executionStart,[Default]), UsedName(args,[Default]), UsedName(clone,[Default]), UsedName(response,[Default]), UsedName(finalize,[Default]), UsedName(app,[Default]), UsedName(##,[Default]), UsedName($init$,[Default]), UsedName(delayedInit,[Default]), UsedName(post,[Default]), UsedName(getClass,[Default]), UsedName(!=,[Default]), UsedName(asInstanceOf,[Default]), UsedName(hashCode,[Default]), UsedName(ne,[Default]), UsedName(toString,[Default]), UsedName(nameValuePairs,[Default]), UsedName(synchronized,[Default]), UsedName(isInstanceOf,[Default]), UsedName(country,[Default]), UsedName(income,[Default]), UsedName(==,[Default]), UsedName(eq,[Default]), UsedName(konsolApplikasjon,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(konsolApplikasjon)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.3782552 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
